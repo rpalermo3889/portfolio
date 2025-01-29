@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RobertPalermo/static/css/main.79cfdfd9.css",
+    "main.js": "/RobertPalermo/static/js/main.5ca00388.js",
+    "static/js/453.ace21015.chunk.js": "/RobertPalermo/static/js/453.ace21015.chunk.js",
+    "index.html": "/RobertPalermo/index.html",
+    "main.79cfdfd9.css.map": "/RobertPalermo/static/css/main.79cfdfd9.css.map",
+    "main.5ca00388.js.map": "/RobertPalermo/static/js/main.5ca00388.js.map",
+    "453.ace21015.chunk.js.map": "/RobertPalermo/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79cfdfd9.css",
+    "static/js/main.5ca00388.js"
+  ]
+}
