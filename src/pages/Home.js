@@ -21,7 +21,7 @@ function Home() {
           <a href="https://www.github.com/rpalermo3889" target="_blank" rel="noopener noreferrer">
             <GitHub titleAccess="GitHub" />
           </a>
-          <a href="https://drive.google.com/file/d/1thmpptlLKlZhqQM8lGQUP6S6VJpn6DKt/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1IYAxq348mR5IQyVuYylqZbm_aIYxhHBx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <PictureAsPdf titleAccess="Picture" />
           </a>
         </div>
