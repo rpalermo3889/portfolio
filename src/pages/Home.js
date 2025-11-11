@@ -9,9 +9,8 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, I'm Robert</h2>
+        <h2> Welcome!</h2>
         <div className="prompt">
-          <p>Welcome!</p>
           <p>I'm a software developer and I'm very passionate about learning different ways to use computers to improve our daily lives.</p>
           <a href="https://www.linkedin.com/in/rpalermo3889/" target="_blank" rel="noopener noreferrer">
             <LinkedIn titleAccess="LinkedIn" />

@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: black;
+    color: white;
   }
   
   .about {
@@ -13,13 +13,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: black;
+    color: white;
   }
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    color: black;
+    color: white;
     height: 50px;
   }
   
@@ -30,7 +30,7 @@
   .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: #21325e;
+    color: white;
   }
   
   .skills {

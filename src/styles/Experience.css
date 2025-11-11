@@ -1,0 +1,69 @@
+/* Layout */
+.experience {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* Header spacer (you can replace the dot with a title) */
+.experience .header h1 {
+  margin: 0 0 20px 0;
+  color: transparent; /* keep spacing without visible text */
+}
+
+/* Vertical timeline overrides */
+.vertical-timeline {
+  padding: 0;
+}
+
+/* Work entries (yellow/gold) */
+.vertical-timeline-element--work .vertical-timeline-element-icon {
+  background: darkblue !important;
+  color: #fff !important;
+}
+
+/* Education entries (blue) */
+.vertical-timeline-element--education .vertical-timeline-element-icon {
+  background: #3e497a !important;
+  color: #fff !important;
+}
+
+/* Content card styling */
+.vertical-timeline-element-content {
+  background: white;
+  color: black;
+  padding: 18px 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+.vertical-timeline-element-content h3,
+.vertical-timeline-element-content h4 {
+  margin: 0 0 6px 0;
+  color: black;
+}
+
+.vertical-timeline-element-content p {
+  margin: 8px 0 0 0;
+  color: black;
+  line-height: 1.5;
+}
+
+/* Date styling */
+.vertical-timeline-element-date {
+  color: white;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .experience {
+    padding: 20px 12px;
+  }
+  .vertical-timeline-element-content {
+    padding: 14px 16px;
+  }
+}
