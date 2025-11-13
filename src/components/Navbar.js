@@ -23,9 +23,11 @@ function Navbar() {
                 <ReorderIcon />
             </button>
         </div>
+        
         <div className='links'>
             <Link to="/portfolio"> Home </Link>
             <Link to="/experience"> Experience </Link>
+            <Link to="/projects"> Projects </Link>
         </div>
     </div>
   )

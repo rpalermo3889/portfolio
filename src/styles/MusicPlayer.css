@@ -1,0 +1,41 @@
+/* remove the visible highlight after a mouse/tap press while keeping keyboard focus visible for accessibility */
+.music-player {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+/* base button styles */
+.music-toggle {
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-tap-highlight-color: transparent; /* remove tap highlight on mobile */
+  user-select: none;
+  transition: transform 0.06s ease;
+}
+
+/* remove mouse/touch focus outline/highlight */
+.music-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* keep a visible focus ring only for keyboard users */
+.music-toggle:focus-visible {
+  outline: 2px solid rgba(255,255,255,0.95);
+  outline-offset: 2px;
+}
+
+/* subtle press feedback without browser highlight */
+.music-toggle:active {
+  transform: translateY(1px);
+  opacity: 0.95;
+}

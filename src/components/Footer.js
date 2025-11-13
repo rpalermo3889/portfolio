@@ -1,7 +1,6 @@
 import React from 'react';
 import { LinkedIn } from '@mui/icons-material';
 import { GitHub } from '@mui/icons-material';
-import { Email } from '@mui/icons-material';
 import { PictureAsPdf } from "@mui/icons-material";
 import "../styles/Footer.css"
 
@@ -11,9 +10,6 @@ function Footer() {
         <div className='socialMedia'>
           <a href="https://www.linkedin.com/in/rpalermo3889/" target="_blank" rel="noopener noreferrer">
             <LinkedIn titleAccess="LinkedIn" />
-          </a>
-          <a href="mailto:robertpalermo3889@gmail.com">
-            <Email titleAccess="Email" />
           </a>
           <a href="https://www.github.com/rpalermo3889" target="_blank" rel="noopener noreferrer">
             <GitHub titleAccess="GitHub" />

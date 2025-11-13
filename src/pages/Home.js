@@ -1,6 +1,5 @@
 import React from "react";
 import { LinkedIn } from "@mui/icons-material";
-import { Email } from "@mui/icons-material";
 import { GitHub } from '@mui/icons-material';
 import { PictureAsPdf } from "@mui/icons-material";
 import "../styles/Home.css";
@@ -9,14 +8,13 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Welcome!</h2>
+        <h2> Welcome </h2>
         <div className="prompt">
-          <p>I'm a software developer and I'm very passionate about learning different ways to use computers to improve our daily lives.</p>
+          <p> My name is Robert, I'm a software developer who enjoys solving real problems with code.
+             I work across frontend and backend and love learning new technologies.</p>
+          <p> Feel free to check out my projects and resume.</p>
           <a href="https://www.linkedin.com/in/rpalermo3889/" target="_blank" rel="noopener noreferrer">
             <LinkedIn titleAccess="LinkedIn" />
-          </a>
-          <a href="mailto:robertpalermo3889@gmail.com">
-            <Email titleAccess="Email" />
           </a>
           <a href="https://www.github.com/rpalermo3889" target="_blank" rel="noopener noreferrer">
             <GitHub titleAccess="GitHub" />

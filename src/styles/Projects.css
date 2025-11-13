@@ -1,0 +1,12 @@
+.projects {
+    width: 100%;
+    min-height: calc(100vh - 100px); /* adjust 100px to match your navbar height */
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}

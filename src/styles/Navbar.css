@@ -1,5 +1,5 @@
 .navbar {
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.75);
     position: fixed;
     top: 0;
     width: 100%;
@@ -81,15 +81,12 @@
     .toggleButton {
       display: none;
     }
-  
     .hiddenLinks {
       display: none;
     }
-  
     #open {
       height: 100px;
     }
-  
     #open .links {
       flex-direction: row;
     }
